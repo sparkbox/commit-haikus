@@ -1,0 +1,15 @@
+{
+  "name": "commit-haikus",
+  "version": "1.0.0",
+  "description": "Searches Github for accidental commit message haikus.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "Bryan Braun <bbraun7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "syllable": "^3.0.0"
+  }
+}
