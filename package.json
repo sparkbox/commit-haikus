@@ -7,9 +7,13 @@
     "start": "node index.js",
     "test": "node test.js"
   },
-  "author": "Bryan Braun <bbraun7@gmail.com>",
+  "author": "Bryan Braun <bryan@heysparkbox.com>",
   "license": "MIT",
   "dependencies": {
-    "syllable": "^3.0.0"
+    "dotenv": "^4.0.0",
+    "github": "^13.0.1",
+    "syllable": "^3.0.0",
+    "twit": "^2.2.9",
+    "yargs": "^10.0.3"
   }
 }

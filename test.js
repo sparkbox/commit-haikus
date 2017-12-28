@@ -17,10 +17,16 @@ function identifyIncorrectHaiku2() {
   return !testBot.isHaiku(nonHaiku2);
 }
 
+function identifyIncorrectHaiku3() {
+  const nonHaiku3 = "Fixed mechanics article Much was wrong / figured out a lot more.";
+  return !testBot.isHaiku(nonHaiku3);
+}
+
 const tests = [
   identifyCorrectHaiku,
   identifyIncorrectHaiku1,
-  identifyIncorrectHaiku2
+  identifyIncorrectHaiku2,
+  identifyIncorrectHaiku3
 ];
 
 tests.forEach((test, index) => {
