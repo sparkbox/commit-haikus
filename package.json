@@ -4,7 +4,8 @@
   "description": "Searches Github for accidental commit message haikus.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "echo 'Deploy Complete!'",
+    "bot": "node index.js",
     "test": "node test.js"
   },
   "author": "Bryan Braun <bryan@heysparkbox.com>",
